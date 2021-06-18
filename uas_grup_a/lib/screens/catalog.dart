@@ -83,8 +83,8 @@ class _MyAppBar extends StatelessWidget {
       floating: true,
       actions: [
         IconButton(
-          icon: const Icon(Icons.shopping_cart),
-          onPressed: () => Navigator.pushNamed(context, '/cart'),
+          icon: const Icon(Icons.person),
+          onPressed: () => Navigator.pushNamed(context, ''),
         ),
       ],
     );
